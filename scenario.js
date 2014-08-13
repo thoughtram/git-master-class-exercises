@@ -1,5 +1,5 @@
 function notifyResults (x) {
-    if (x === 1) {
+    if (x === 2) {
         return "you won";
     }
 
