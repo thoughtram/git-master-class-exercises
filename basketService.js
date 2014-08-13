@@ -5,4 +5,8 @@ function basketService (store) {
         return item;
     };
 
+    this.clearBasket = function () {
+        this.store.length = 0;
+    };
+
 }
