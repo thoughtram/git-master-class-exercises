@@ -5,4 +5,12 @@ function basketService (store) {
         return item;
     };
 
+    this.addBatchToBasket = function (items) {
+        items.forEach(function (item) {
+            store.add(item);
+        });
+
+        return items;
+    };
+
 }
