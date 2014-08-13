@@ -1,1 +1,1 @@
-The brown fox jumps over the fence
+The fox jumps over the fence
