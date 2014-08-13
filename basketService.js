@@ -13,4 +13,8 @@ function basketService (store) {
         return items;
     };
 
+    this.clearBasket = function () {
+        this.store.length = 0;
+    };
+
 }
