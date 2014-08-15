@@ -1,4 +1,4 @@
-function catalogService (db) {
+function productService (db) {
     this.getProduct = function(productId) {
         return db.find(productId);
     };
