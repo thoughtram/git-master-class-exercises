@@ -10,4 +10,8 @@ function userService (db) {
     this.findUserByName = function (name) {
         // not implemented
     };
+
+    this.deleteUserByName = function (name) {
+        // not implemented
+    };
 }
