@@ -6,4 +6,8 @@ function userService (db) {
     this.deleteUser = function (id) {
         db.users.delete(id);
     };
+
+    this.findUserByName = function (name) {
+        // not implemented
+    };
 }
